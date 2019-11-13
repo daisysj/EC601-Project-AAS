@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Admission Panda</title>
+    </head>
+    <body>
+        <strong>Welcome to Admission Panda!</strong>
+        <div class="navbar">
+            <a href="{{ url_for('homepage') }}" class="navbar-brand">Home</a>
+        </div>
+
+        <div class="body-content">
+            {% block content %}
+            {% endblock %}
+            <hr/>
+            <footer>
+                <p>© 2019 Yu Liu, Shengyao Shao, Jing Song</p>
+            </footer>
+        </div>
+    </body>
+</html>
