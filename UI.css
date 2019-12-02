@@ -1,0 +1,30 @@
+*{margin:20px; background-color:gray;}
+h1{text-align:center;padding-bottom:50px;padding-top:50px;}
+
+#nav1{list-style-type: none;
+display: inline;
+padding-left:4vw;
+padding-right:4vw;
+font-size:2vw;
+background-color: red;
+}
+
+
+#nav{
+background-color: red;
+padding-left: 10vw;
+padding-right: 5vw;
+padding-top: 5vw;
+padding-bottom: 5vw;
+
+}
+
+#submit{padding-top:50px;}
+
+a{color:white;
+
+text-decoration: none;
+background-color: red;}
+#d1{padding-top:30px;padding-bottom:30px}
+
+#bu{color:red;background-color: gray;}

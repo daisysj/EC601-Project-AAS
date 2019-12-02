@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>EC601 Project</title>
+	<link rel="stylesheet" type="text/css" href="UI.css"/>
+</head>
+<body>
+<h1>Automated Admission System for Graduate Student</h1>
+	<nav>
+		<ul id="nav">
+			<li id="nav1"><a href="#">Home</a></li>
+			<li id="nav1"><a href="#submit">CV/Resume</a></li>
+			<li id="nav1"><a href="#submit">Transcript</a></li>
+		</ul>
+	</nav>
+<div id="d1">	
+<p id="p1">This is the user's interface for <a id="bu" href = "http://www.bu.edu/">Boston University</a> EC601's term project.</p>
+<strong>Group Members</strong>
+<ul>
+	<li>Yu Liu</li>
+	<li>Jing Song</li>
+	<li>Shengyao Shao</li>
+</ul>
+</div>
+<hr>
+<div id="submit">
+<p>Please submit your <strong>official transcript</strong> here.</p>
+<form action = "uplod.php" method = "POST" enctype="multipart/form-data">
+	<input type = "file" name = "transcript">
+	<button type="submit" name="submit">UPLOAD</button>
+	<p>Please submit your <strong>CV/resume</strong> here.</p>
+<form action = "uplod.php" method = "POST" enctype="multipart/form-data">
+	<input type = "file" name = "CV">
+	<button type="submit" name="submit">UPLOAD</button>
+</div>
+</body>
+</html>
