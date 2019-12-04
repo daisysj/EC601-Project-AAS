@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Admission Panda</title>
+    </head>
+    <body>
+        <p style="text-align:center;"><img src="/static/images/logo.png" height="286" width="397" alt="panda"> </img> </p>
+        <div class="navbar">
+            <a href="{{ url_for('homepage') }}" class="navbar-brand">Home</a>
+            <a href="{{ url_for('recommlett') }}" class="navbar-brand">Recommendation Letter Analysis</a>
+            <a href="{{ url_for('summary') }}" class="navbar-brand">Generate Summary</a>
+        </div>
+
+        <div class="body-content">
+            {% block content %}
+            {% endblock %}
+            <hr/>
+            <footer>
+                <p style="text-align:center;"><strong>Welcome to Admission Panda!</strong></p>
+                <p style="text-align:center;">© 2019 Yu Liu, Shengyao Shao, Jing Song</p>
+            </footer>
+        </div>
+    </body>
+</html>
