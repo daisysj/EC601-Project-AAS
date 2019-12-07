@@ -27,11 +27,62 @@
   <script>
     // Initialize Firebase
     var config = {
-      // for later use
+      apiKey: "AIzaSyDrv9cPQJ_w40iYRfv2gQGM4VSAfXsguco",
+      authDomain: "admms-bc1fd.firebaseapp.com",
+      databaseURL: "https://admms-bc1fd.firebaseio.com",
+      projectId: "admms-bc1fd",
+      storageBucket: "admms-bc1fd.appspot.com",
+      messagingSenderId: "85383681537",
+      appId: "1:85383681537:web:0e1de704a4822622fad200",
+      measurementId: "G-GERQSXPTKV"
     };
     firebase.initializeApp(config);
   </script>
-  <script src="index.js"></script>
+  <script>
+  firebase.auth().onAuthStateChanged(function(user) {
+  if (user) {
+    // User is signed in.
+
+    document.getElementById("user_div").style.display = "block";
+    document.getElementById("login_div").style.display = "none";
+
+    var user = firebase.auth().currentUser;
+
+    if(user != null){
+
+      var email_id = user.email;
+      document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
+
+    }
+
+  } else {
+    // No user is signed in.
+
+    document.getElementById("user_div").style.display = "none";
+    document.getElementById("login_div").style.display = "block";
+
+  }
+});
+
+function login(){
+  var userEmail = document.getElementById("email_field").value;
+  var userPass = document.getElementById("password_field").value;
+
+  firebase.auth().signInWithEmailAndPassword(userEmail, userPass).catch(function(error) {
+    // Handle Errors here.
+    var errorCode = error.code;
+    var errorMessage = error.message;
+
+    window.alert("Error : " + errorMessage);
+
+    // ...
+  });
+}
+
+function logout(){
+  firebase.auth().signOut();
+}
+  </script>
 
 </body>
 </html>
