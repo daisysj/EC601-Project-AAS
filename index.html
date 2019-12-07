@@ -57,7 +57,8 @@
   }
 });
 
-function login(){
+function login(provider){
+  /*
   var userEmail = document.getElementById("email_field").value;
   var userPass = document.getElementById("password_field").value;
 
@@ -70,6 +71,9 @@ function login(){
 
     // ...
   });
+  */
+    var nmb = new firebase.auth.GoogleAuthProvider();
+    firebase.auth().signInWithRedirect(nmb);
 }
 
 function logout(){
