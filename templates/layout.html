@@ -7,11 +7,16 @@
     <body>
         <p style="text-align:center;"><img src="/static/images/logo.png" height="286" width="397" alt="panda"> </img> </p>
         <div class="navbar">
-            <a href="{{ url_for('homepage') }}" class="navbar-brand">Home</a>
-            <a href="{{ url_for('recommlett') }}" class="navbar-brand">Recommendation Letter Analysis</a>
-            <a href="{{ url_for('summary') }}" class="navbar-brand">Generate Summary</a>
+            <p style="text-align:center;">
+            <a href="{{ url_for('homepage') }}" class="navbar-brand">Home&nbsp;&nbsp;</a>
+            <a href="{{ url_for('recommlett') }}" class="navbar-brand">Recommendation Letter Analysis&nbsp;&nbsp;</a> 
+            <a href="{{ url_for('predict') }}" class="navbar-brand">Admission Probability Predictor&nbsp;&nbsp;</a>
+            <a href="{{ url_for('summary') }}" class="navbar-brand">Generate Summary&nbsp;&nbsp;</a>
+            <a href="{{ url_for('index') }}" class="navbar-brand">Log out</a>
+            </p>
         </div>
-
+        <br/>
+        <br/>
         <div class="body-content">
             {% block content %}
             {% endblock %}

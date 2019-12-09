@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="formwrapper">
+    <h2 class="title">Enter Admission Data</h2>
+    <form method="POST" action="/predict_result">
+        <div class="form-field">{{ form.GRE.label }} {{ form.GRE }}</div>
+        <br />
+        <div class="form-field">{{ form.TOEFL.label }} {{ form.TOEFL }}</div>
+        <br />
+        <div class="form-field">{{ form.rating.label }} {{ form.rating }}</div>
+        <br />
+        <div class="form-field">{{ form.SOP.label }} {{ form.SOP }}</div>
+        <br />
+        <div class="form-field">{{ form.LOR.label }} {{ form.LOR }}</div>
+        <br />
+        <div class="form-field">{{ form.CGPA.label }} {{ form.CGPA }}</div>
+        <br />
+        <div class="form-field">{{ form.Research.label }} {{ form.Research }}</div>
+        <br />
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<br />
+
+{% endblock %}

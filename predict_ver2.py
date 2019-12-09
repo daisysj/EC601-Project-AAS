@@ -10,7 +10,7 @@ def predict():
     scalar = preprocessing.MinMaxScaler()
 
     # get student data
-    data2 = pd.read_csv("./YOUR_FILE.csv", sep = ",")
+    data2 = pd.read_csv("./admission_data.csv", sep = ",")
     scalar2 = preprocessing.MinMaxScaler()
 
     # pre-process data
