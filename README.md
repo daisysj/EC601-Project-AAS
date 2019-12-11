@@ -8,30 +8,28 @@
  </ul>
 
 ### Product Definition: 
-Our project is designed to help those graduate school admission officers to accelerate their admission process. Our application will provide users with standardized summaries of transcripts, so that all students' grades, courses taken, GPA are in the same scale. Also, the application will also give a report of sentimental analysis on the reference letters.</br>
+Our project is designed to help students determine the chances of them getting accepted by Boston University graduate school. Our application will provide users with standardized summaries of transcripts, so that students' grades, courses taken, GPA are in the same scale. Also, the application will also give a report of sentimental analysis on the statement of purposes.
 
 ### Target Users: 
-<em><strong>Graduate school admission officers</strong></em> who spend a lot of time reading through each applicant's transcript.</br>
+<em><strong>Graduate school applicants</strong></em> who wants to know his chances of getting accepted.</br>
 
 ### MVP:
-The product should provide users with a report that summarizes the useful information presented in each applicant's transcript.</br>
+The product should provide users with a report that summarizes the useful information presented in applicant's transcript.</br>
 
 ### User Stories:
 
 <ul>
-<li> I, as a grauduate school admission officer, should be able to see the applicant's undergrad university, its world ranking  and whether the applicant should take TOEFL test or not.</li>
+<li> I, as a grauduate school applicant, should be able to see my undergrad school's world ranking  and whether the I should take TOEFL test or not.</li>
 
-<li> I, as a grauduate school admission officer, should be able to see the applicant's GPA (under 4.0 scale).</li>
+<li> I, as a grauduate applicant, should be able to see my standardized GPA (under 4.0 scale).</li>
 
-<li> <strong>I, as a grauduate school admission officer, should be able to get a list of categories of the courses the student has taken. </strong></li>
+<li> <strong>I, as a grauduate school applicant, should be able to get a list of categories of the relevant courses taken. </strong></li>
 
-<li><strong> I, as a grauduate school admission officer, should be able to see the student's ranking among all applicants from the same university.</strong></li>
+<li> I, as a grauduate school applicant, should be able to see a report of sentimental analysis on the statement of purpose</li>
 
-<li> I, as a grauduate school admission officer, should be able to see a report of sentimental analysis on the reference letters</li>
-
-<li> I, as a grauduate school admission officer, should be able to get a list of honors and/or academic achievements the applicant gained during undergrad.</li>
+<li> I, as a grauduate school applicant, should be able to enter a list of honors and/or academic achievements the applicant gained during undergrad.</li>
   
-<li> I, as a grauduate school admission officer, should be able to get a list of activities and/or internships the applicant has participated in.</li>
+<li> I, as a grauduate school applicant, should be able to enter a list of activities and/or internships the applicant has participated in.</li>
   
 </ul>
 
