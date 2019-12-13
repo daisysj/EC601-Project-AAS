@@ -2,16 +2,17 @@
 
 ### Team Members:
 <ul>
-  <li>Jing Song U65712216</li>
-  <li>Shengyao Shao U85552843</li>
   <li>Yu Liu U34066489</li>
+  <li>Shengyao Shao U85552843</li>
+  <li>Jing Song U65712216</li>
  </ul>
 
 ### Product Definition: 
-Our project is designed to help those graduate school admission officers to accelerate their admission process. Our application will provide users with standardized summaries of transcripts, so that all students' grades, courses taken, GPA are in the same scale. Also, the application will also give a report of sentimental analysis on the reference letters.</br>
+Our project is designed to help those graduate school admission officers to accelerate their admission process. Our web application will provide users with standardized summaries of applicant’s transcript, sentiment analysis of the applicant’s reference letter, and the predicted chance of admission.
+</br>
 
 ### Target Users: 
-<em><strong>Graduate school admission officers</strong></em> who spend a lot of time reading through each applicant's transcript.</br>
+<em><strong>Graduate school admission officers</strong></em> who used to spend a lot of time reading through each applicant's transcript.</br>
 
 ### MVP:
 The product should provide users with a report that summarizes the useful information presented in each applicant's transcript.</br>
@@ -19,15 +20,20 @@ The product should provide users with a report that summarizes the useful inform
 ### User Stories:
 
 <ul>
+  
+<li> I, as a grauduate school admission officer, should be able to see a report of sentimental analysis on the reference letters</li>
+  
+<li> I, as a graduate school admission officer, should be able to see the applicants’ chance of admission based on their application materials.</li>
+
+<li> I, as a graduate school admission officer, should be able to log into the system.</li>
+
 <li> I, as a grauduate school admission officer, should be able to see the applicant's undergrad university, its world ranking  and whether the applicant should take TOEFL test or not.</li>
 
 <li> I, as a grauduate school admission officer, should be able to see the applicant's GPA (under 4.0 scale).</li>
 
-<li> <strong>I, as a grauduate school admission officer, should be able to get a list of categories of the courses the student has taken. </strong></li>
+<li> I, as a grauduate school admission officer, should be able to get a list of categories of the courses the student has taken.</li>
 
-<li><strong> I, as a grauduate school admission officer, should be able to see the student's ranking among all applicants from the same university.</strong></li>
-
-<li> I, as a grauduate school admission officer, should be able to see a report of sentimental analysis on the reference letters</li>
+<li>I, as a grauduate school admission officer, should be able to see the student's ranking among all applicants from the same university.</li>
 
 <li> I, as a grauduate school admission officer, should be able to get a list of honors and/or academic achievements the applicant gained during undergrad.</li>
   
@@ -71,8 +77,9 @@ The product should provide users with a report that summarizes the useful inform
  - Mysql
    1. Great for storing word documents 
    2. Encrypted conncection
+   
 ### Initial decisions on implementation path:
-### <img src = "https://github.com/daisysj/EC601-Project-Automated-Admission-System/blob/master/Architecture.png"></br>
+### <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png"></br>
 
 ### Tasks for Sprint 2:
 1. Crawl data from different university websites for course numbers and names
