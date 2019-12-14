@@ -45,65 +45,65 @@ The product should provide users with a report that summarizes the useful inform
 
 ## [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
 - ### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
- - Competitors
-  - [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
-  - [Salesforce](https://www.salesforce.org/highered/recruiting/)
-  - [Kira Talent](https://www.kiratalent.com/product/)
+  - Competitors
+        - [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
+        - [Salesforce](https://www.salesforce.org/highered/recruiting/)
+        - [Kira Talent](https://www.kiratalent.com/product/)
  
- - Industry Debates
-  - Bias
-  - Dislike for AI algorithms
+  - Industry Debates
+        - Bias
+        - Dislike for AI algorithms
    
- - Our Advantages
-  - Particularity
-  - Fairness
+  - Our Advantages
+        - Particularity
+        - Fairness
  
- - Our Limitations
-  - Limited Data Access
-  - Limited Factors
+  - Our Limitations
+        - Limited Data Access
+        - Limited Factors
 
 - ### Technology selections and reasons:
   - JavaScript
-   - It's supported by all major browsers
-   - Similar syntax to C
-   - Doesn't need complier 
+        - It's supported by all major browsers
+        - Similar syntax to C
+        - Doesn't need complier 
 
   - Python
-   - We are familiar with Python
-   - Third-party modules to interact across platforms and languages
-   - Large libraries make coding easier
+        - We are familiar with Python
+        - Third-party modules to interact across platforms and languages
+        - Large libraries make coding easier
  
   - PDF Converter API
  
   - Google Natural Language API
  
   - Mysql
-   - Great for storing word documents 
-   - Encrypted conncection
+        - Great for storing word documents 
+        - Encrypted conncection
    
 - ### Initial decisions on implementation path:
 <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png">
 
 - ### Tasks for Sprint 2:
- - Crawl data from different university websites for course numbers and names
- - Processing transcripts texts, generate a dictionary for courses and grades; extract students' main info, GPA, etc.; show the         summary of results on a pdf for each individual student
- - Utilize database (mySQL) for pdfs, texts storage; mangoDB (?) for json results storage
- - Build an AI probability predictor for admission results based on UCLA admission data (weight on different parameters).
- - Recommendation letter sentiment analysis
- - Application name / logo design
+    - Crawl data from different university websites for course numbers and names
+    - Processing transcripts texts, generate a dictionary for courses and grades; extract students' main info, GPA, etc.; show the         summary of results on a pdf for each individual student
+    - Utilize database (mySQL) for pdfs, texts storage; mangoDB (?) for json results storage
+    - Build an AI probability predictor for admission results based on UCLA admission data (weight on different parameters).
+    - Recommendation letter sentiment analysis
+    - Application name / logo design
 
 - ### Tasks for Sprint 3:
- - Web application / PC Applicaiton: http://cs-people.bu.edu/liuyu529/EC601/UI.html
+    - Web application / PC Applicaiton: http://cs-people.bu.edu/liuyu529/EC601/UI.html
 
 ## [Sprint 2](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%202%20Presentation.pdf) 
- - ### Project Components
-  - Transcript Processing
-  - Recommendation Letter Sentiment Analysis
-  - Probability of admission
-  - Generate a summary of all above parameters for each student 
- - ### System Architecture
+- ### Project Components
+    - Transcript Processing
+    - Recommendation Letter Sentiment Analysis
+    - Probability of admission
+    - Generate a summary of all above parameters for each student 
+- ### System Architecture
 
- - ### Machine Learning Algorithm 
+- ### Machine Learning Algorithm 
 
 ## Content:
 
