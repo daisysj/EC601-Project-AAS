@@ -45,51 +45,51 @@ The product should provide users with a report that summarizes the useful inform
 
 ## [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
 - ### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
-  - Competitors
-        * [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
+  1. Competitors
+     -[Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
         
-        * [Salesforce](https://www.salesforce.org/highered/recruiting/)
+     -[Salesforce](https://www.salesforce.org/highered/recruiting/)
         
-        * [Kira Talent](https://www.kiratalent.com/product/)
+     -[Kira Talent](https://www.kiratalent.com/product/)
  
-  - Industry Debates
-        * Bias
+  2. Industry Debates
+     -Bias
         
-        * Dislike for AI algorithms
+     -Dislike for AI algorithms
    
-  - Our Advantages
-        * Particularity
+  3. Our Advantages
+     -Particularity
         
-        * Fairness
+     -Fairness
  
-  - Our Limitations
-        * Limited Data Access
+  4. Our Limitations
+     -Limited Data Access
         
-        * Limited Factors
+     -Limited Factors
 
 - ### Technology selections and reasons:
-  - JavaScript
-        * It's supported by all major browsers
+  1. JavaScript
+     -It's supported by all major browsers
         
-        * Similar syntax to C
+     -Similar syntax to C
         
-        * Doesn't need complier 
+     -Doesn't need complier 
 
-  - Python
-        * We are familiar with Python
+  2. Python
+     -We are familiar with Python
         
-        * Third-party modules to interact across platforms and languages
+     -Third-party modules to interact across platforms and languages
         
-        * Large libraries make coding easier
+     -Large libraries make coding easier
  
-  - PDF Converter API
+  3. PDF Converter API
  
-  - Google Natural Language API
+  4. Google Natural Language API
  
-  - Mysql
-        * Great for storing word documents 
+  5. Mysql
+     -Great for storing word documents 
         
-        * Encrypted conncection
+     -Encrypted conncection
    
 - ### Initial decisions on implementation path:
 <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png">
