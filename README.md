@@ -46,6 +46,7 @@ The product should provide users with a report that summarizes the useful inform
 ## [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
 - ### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
   1. Competitors
+  
      -[Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
         
      -[Salesforce](https://www.salesforce.org/highered/recruiting/)
@@ -53,22 +54,26 @@ The product should provide users with a report that summarizes the useful inform
      -[Kira Talent](https://www.kiratalent.com/product/)
  
   2. Industry Debates
+  
      -Bias
         
      -Dislike for AI algorithms
    
   3. Our Advantages
+  
      -Particularity
         
      -Fairness
  
   4. Our Limitations
+  
      -Limited Data Access
         
      -Limited Factors
 
 - ### Technology selections and reasons:
   1. JavaScript
+  
      -It's supported by all major browsers
         
      -Similar syntax to C
@@ -76,6 +81,7 @@ The product should provide users with a report that summarizes the useful inform
      -Doesn't need complier 
 
   2. Python
+  
      -We are familiar with Python
         
      -Third-party modules to interact across platforms and languages
@@ -87,6 +93,7 @@ The product should provide users with a report that summarizes the useful inform
   4. Google Natural Language API
  
   5. Mysql
+  
      -Great for storing word documents 
         
      -Encrypted conncection
