@@ -45,62 +45,62 @@ The product should provide users with a report that summarizes the useful inform
 
 ## [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
 - ### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
-  - Competitors
-        1. [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
-        2. [Salesforce](https://www.salesforce.org/highered/recruiting/)
-        3. [Kira Talent](https://www.kiratalent.com/product/)
+ - Competitors
+  - [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
+  - [Salesforce](https://www.salesforce.org/highered/recruiting/)
+  - [Kira Talent](https://www.kiratalent.com/product/)
  
-  - Industry Debates
-        1. Bias
-        2. Dislike for AI algorithms
+ - Industry Debates
+  - Bias
+  - Dislike for AI algorithms
    
-  - Our Advantages
-        1. Particularity
-        2. Fairness
+ - Our Advantages
+  - Particularity
+  - Fairness
  
-  - Our Limitations
-        1. Limited Data Access
-        2. Limited Factors
+ - Our Limitations
+  - Limited Data Access
+  - Limited Factors
 
 - ### Technology selections and reasons:
   - JavaScript
-        1. It's supported by all major browsers
-        2. Similar syntax to C
-        3. Doesn't need complier 
+   - It's supported by all major browsers
+   - Similar syntax to C
+   - Doesn't need complier 
 
   - Python
-        1. We are familiar with Python
-        2. Third-party modules to interact across platforms and languages
-        3. Large libraries make coding easier
+   - We are familiar with Python
+   - Third-party modules to interact across platforms and languages
+   - Large libraries make coding easier
  
   - PDF Converter API
  
   - Google Natural Language API
  
   - Mysql
-        1. Great for storing word documents 
-        2. Encrypted conncection
+   - Great for storing word documents 
+   - Encrypted conncection
    
 - ### Initial decisions on implementation path:
-<img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png"></br>
+<img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png">
 
 - ### Tasks for Sprint 2:
-      1. Crawl data from different university websites for course numbers and names
-      2. Processing transcripts texts, generate a dictionary for courses and grades; extract students' main info, GPA, etc.; show the         summary of results on a pdf for each individual student
-      3. Utilize database (mySQL) for pdfs, texts storage; mangoDB (?) for json results storage
-      4. Build an AI probability predictor for admission results based on UCLA admission data (weight on different parameters).
-      5. Recommendation letter sentiment analysis
-      6. Application name / logo design
+ - Crawl data from different university websites for course numbers and names
+ - Processing transcripts texts, generate a dictionary for courses and grades; extract students' main info, GPA, etc.; show the         summary of results on a pdf for each individual student
+ - Utilize database (mySQL) for pdfs, texts storage; mangoDB (?) for json results storage
+ - Build an AI probability predictor for admission results based on UCLA admission data (weight on different parameters).
+ - Recommendation letter sentiment analysis
+ - Application name / logo design
 
 - ### Tasks for Sprint 3:
-      1. Web application / PC Applicaiton: http://cs-people.bu.edu/liuyu529/EC601/UI.html
+ - Web application / PC Applicaiton: http://cs-people.bu.edu/liuyu529/EC601/UI.html
 
 ## [Sprint 2](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%202%20Presentation.pdf) 
  - ### Project Components
-      - Transcript Processing
-      - Recommendation Letter Sentiment Analysis
-      - Probability of admission
-      - Generate a summary of all above parameters for each student 
+  - Transcript Processing
+  - Recommendation Letter Sentiment Analysis
+  - Probability of admission
+  - Generate a summary of all above parameters for each student 
  - ### System Architecture
 
  - ### Machine Learning Algorithm 
