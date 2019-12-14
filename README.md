@@ -122,7 +122,32 @@ The product should provide users with a report that summarizes the useful inform
   <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/sprint%202_general%20architecture.png">
   <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/sprint%202_transcript%20processing.png">
 
-- ### Machine Learning Algorithm</br>
+- ### Machine Learning Algorithm
+    - Randmon Forest Regression Model
+      <img src = "https://github.com/daisysj/EC601-Project-   AAS/blob/master/presentation/Machine%20Learning%20Algorithm_featureimportance.PNG">
+
+- ### Tasks for Sprint 3
+    - Utilize database (MySQL)
+    - Expand data scraping scale, pass the module to Professor Trachtenberg for testing
+    - Add score report processing
+    - Add firewall protection to the file uploading process (utilize open-source security framework??)
+    - Work on website design (file uploading system, etc.)</br>
+
+## [Sprint 3](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/poster_final.pdf)
+- ### Results Demonstration
+    1. Log-in Page
+    
+    2. Transcript Upload Page
+    
+    3. Recommendation Letter Upload Page
+    
+    4. Admission Probability Predictor Page
+    
+    5. Sample Report Page
+
+- ### Future Improvements
+
+- ### Reflections
 
 ## Content:
 
