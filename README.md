@@ -124,7 +124,7 @@ The product should provide users with a report that summarizes the useful inform
 
 - ### Machine Learning Algorithm
     - Randmon Forest Regression Model
-      <img src = "https://github.com/daisysj/EC601-Project-   AAS/blob/master/presentation/Machine%20Learning%20Algorithm_featureimportance.PNG">
+    <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Machine%20Learning%20Algorithm_featureimportance.PNG">
 
 - ### Tasks for Sprint 3
     - Utilize database (MySQL)
@@ -136,14 +136,19 @@ The product should provide users with a report that summarizes the useful inform
 ## [Sprint 3](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/poster_final.pdf)
 - ### Results Demonstration
     1. Log-in Page
+    <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/UI/login.PNG">
     
     2. Transcript Upload Page
+    <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/UI/transcript%20upload.PNG">
     
     3. Recommendation Letter Upload Page
+    <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/UI/recommendation%20letter%20upload.PNG">
     
     4. Admission Probability Predictor Page
+    <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/UI/probability%20predictor.PNG">
     
     5. Sample Report Page
+    <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/UI/report.PNG">
 
 - ### Future Improvements
 
