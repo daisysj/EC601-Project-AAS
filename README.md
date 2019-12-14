@@ -7,6 +7,8 @@
   <li>Jing Song U65712216</li>
  </ul>
 
+### <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/static/images/logo.png"></br>
+
 ### Product Definition: 
 Our project is designed to help those graduate school admission officers to accelerate their admission process. Our web application will provide users with standardized summaries of applicant’s transcript, sentiment analysis of the applicant’s reference letter, and the predicted chance of admission.
 </br>
