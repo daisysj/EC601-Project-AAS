@@ -46,40 +46,40 @@ The product should provide users with a report that summarizes the useful inform
 ## [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
 - ### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
   - Competitors
-   ⋅⋅* [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
-   ⋅⋅* [Salesforce](https://www.salesforce.org/highered/recruiting/)
-   ⋅⋅* [Kira Talent](https://www.kiratalent.com/product/)
+   * [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
+   * [Salesforce](https://www.salesforce.org/highered/recruiting/)
+   * [Kira Talent](https://www.kiratalent.com/product/)
  
   - Industry Debates
-   ⋅⋅* Bias
-   ⋅⋅* Dislike for AI algorithms
+   * Bias
+   * Dislike for AI algorithms
    
   - Our Advantages
-   ⋅⋅* Particularity
-   ⋅⋅* Fairness
+   * Particularity
+   * Fairness
  
   - Our Limitations
-   ⋅⋅* Limited Data Access
-   ⋅⋅* Limited Factors
+   * Limited Data Access
+   * Limited Factors
 
 - ### Technology selections and reasons:
   - JavaScript
-   ⋅⋅* It's supported by all major browsers
-   ⋅⋅* Similar syntax to C
-   ⋅⋅* Doesn't need complier 
+   * It's supported by all major browsers
+   * Similar syntax to C
+   * Doesn't need complier 
 
   - Python
-   ⋅⋅* We are familiar with Python
-   ⋅⋅* Third-party modules to interact across platforms and languages
-   ⋅⋅* Large libraries make coding easier
+   * We are familiar with Python
+   * Third-party modules to interact across platforms and languages
+   * Large libraries make coding easier
  
   - PDF Converter API
  
   - Google Natural Language API
  
   - Mysql
-   ⋅⋅* Great for storing word documents 
-   ⋅⋅* Encrypted conncection
+   * Great for storing word documents 
+   * Encrypted conncection
    
 - ### Initial decisions on implementation path:
 <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png">
@@ -109,9 +109,9 @@ The product should provide users with a report that summarizes the useful inform
 
 ## Content:
 
- ####1. [Meeting with Professor Trachtenberg](https://github.com/daisysj/EC601-Project-AAS/blob/master/2019.9.24%20Meeting%20with%20Prof.%20Trachtenberg.pdf)
+  1. [Meeting with Professor Trachtenberg](https://github.com/daisysj/EC601-Project-AAS/blob/master/2019.9.24%20Meeting%20with%20Prof.%20Trachtenberg.pdf)
 
- ####2. User Stories & MVP
+  2. User Stories & MVP
 
- ####3. [Industry Review](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
+  3. [Industry Review](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
 
