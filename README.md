@@ -46,40 +46,40 @@ The product should provide users with a report that summarizes the useful inform
 ## [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
 - ### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
   - Competitors
-   1. [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
-   2. [Salesforce](https://www.salesforce.org/highered/recruiting/)
-   3. [Kira Talent](https://www.kiratalent.com/product/)
+   ⋅⋅* [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
+   ⋅⋅* [Salesforce](https://www.salesforce.org/highered/recruiting/)
+   ⋅⋅* [Kira Talent](https://www.kiratalent.com/product/)
  
   - Industry Debates
-   1. Bias
-   2. Dislike for AI algorithms
+   ⋅⋅* Bias
+   ⋅⋅* Dislike for AI algorithms
    
   - Our Advantages
-   1. Particularity
-   2. Fairness
+   ⋅⋅* Particularity
+   ⋅⋅* Fairness
  
   - Our Limitations
-   1. Limited Data Access
-   2. Limited Factors
+   ⋅⋅* Limited Data Access
+   ⋅⋅* Limited Factors
 
 - ### Technology selections and reasons:
   - JavaScript
-   1. It's supported by all major browsers
-   2. Similar syntax to C
-   3. Doesn't need complier 
+   ⋅⋅* It's supported by all major browsers
+   ⋅⋅* Similar syntax to C
+   ⋅⋅* Doesn't need complier 
 
   - Python
-   1. We are familiar with Python
-   2. Third-party modules to interact across platforms and languages
-   3. Large libraries make coding easier
+   ⋅⋅* We are familiar with Python
+   ⋅⋅* Third-party modules to interact across platforms and languages
+   ⋅⋅* Large libraries make coding easier
  
   - PDF Converter API
  
   - Google Natural Language API
  
   - Mysql
-   1. Great for storing word documents 
-   2. Encrypted conncection
+   ⋅⋅* Great for storing word documents 
+   ⋅⋅* Encrypted conncection
    
 - ### Initial decisions on implementation path:
 <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png">
@@ -102,6 +102,8 @@ The product should provide users with a report that summarizes the useful inform
     - Probability of admission
     - Generate a summary of all above parameters for each student 
 - ### System Architecture
+  <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/sprint%202_general%20architecture.png">
+  <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/sprint%202_transcript%20processing.png">
 
 - ### Machine Learning Algorithm 
 
