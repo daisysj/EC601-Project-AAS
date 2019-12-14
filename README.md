@@ -43,57 +43,67 @@ The product should provide users with a report that summarizes the useful inform
   
 </ul>
 
-### [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-Automated-Admission-System/blob/master/Sprint%201_Industry%20Review.pdf)
- - Competitors
+### [Sprint 1](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf) 
+- ## [Industry (product and patent) review and analysis:](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
+  - Competitors
    1. [Ellucian](https://www.ellucian.com/solutions/ellucian-crm-recruit)
    2. [Salesforce](https://www.salesforce.org/highered/recruiting/)
    3. [Kira Talent](https://www.kiratalent.com/product/)
  
- - Industry Debates
+  - Industry Debates
    1. Bias
    2. Dislike for AI algorithms
    
- - Our Advantages
+  - Our Advantages
    1. Particularity
    2. Fairness
  
- - Our Limitations
+  - Our Limitations
    1. Limited Data Access
    2. Limited Factors
 
-### Technology selections and reasons:
- - JavaScript
+- ## Technology selections and reasons:
+  - JavaScript
    1. It's supported by all major browsers
    2. Similar syntax to C
    3. Doesn't need complier 
 
- - Python
+  - Python
    1. We are familiar with Python
    2. Third-party modules to interact across platforms and languages
    3. Large libraries make coding easier
  
- - PDF Converter API
+  - PDF Converter API
  
- - Google Natural Language API
+  - Google Natural Language API
  
- - Mysql
+  - Mysql
    1. Great for storing word documents 
    2. Encrypted conncection
    
-### Initial decisions on implementation path:
-### <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png"></br>
+- ## Initial decisions on implementation path:
+## <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/Architecture.png"></br>
 
-### Tasks for Sprint 2:
-1. Crawl data from different university websites for course numbers and names
-2. Processing transcripts texts, generate a dictionary for courses and grades; extract students' main info, GPA, etc.; show the summary     of results on a pdf for each individual student
-3. Utilize database (mySQL) for pdfs, texts storage; mangoDB (?) for json results storage
-4. Build an AI probability predictor for admission results based on UCLA admission data (weight on different parameters).
-5. Recommendation letter sentiment analysis
-6. Application name / logo design
+- ## Tasks for Sprint 2:
+  1. Crawl data from different university websites for course numbers and names
+  2. Processing transcripts texts, generate a dictionary for courses and grades; extract students' main info, GPA, etc.; show the    summary of results on a pdf for each individual student
+  3. Utilize database (mySQL) for pdfs, texts storage; mangoDB (?) for json results storage
+  4. Build an AI probability predictor for admission results based on UCLA admission data (weight on different parameters).
+  5. Recommendation letter sentiment analysis
+  6. Application name / logo design
 
+- ## Tasks for Sprint 3:
+  1. Web application / PC Applicaiton: http://cs-people.bu.edu/liuyu529/EC601/UI.html
 
-### Tasks for Sprint 3:
-1. Web application / PC Applicaiton: http://cs-people.bu.edu/liuyu529/EC601/UI.html
+### [Sprint 2](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%202%20Presentation.pdf) 
+- ## Project Components
+  - Transcript Processing
+  - Recommendation Letter Sentiment Analysis
+  - Probability of admission
+  - Generate a summary of all above parameters for each student 
+- ## System Architecture
+
+- ## Machine Learning Algorithm 
 
 ### Content:
 
