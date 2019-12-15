@@ -155,7 +155,7 @@ None! The system is perfect and has nothing to be improved.
 - ### Reflections
 <ul>
   <li>Yu Liu: Through this project, we focused on a few aspects of machine learning algorithm design and web development. The part I enjoyed the most is how we processed and analyzed the dataset, from which we could acquire useful information. After studying several different algorithms, we accomplished the machine learning module successfully. Neverthelss, what I found the most difficult is to integrate everything we've done into a product, since we had to adjust all the components so as to make the product work more smoothly. In a word, I learned a lot about agile software development from this project, which helps lay a solid foundation for future career.</li>
-  <li>Shengyao Shao:
+  <li>Shengyao Shao: When trying to apply the database to this project, we had to face a number of obstacles. From small problems like having trouble downloading and installing the software required for MySQL database, to how we could make the database work more efficiently. After carefully going through the documentation MySQL provided and all kinds of tutorials available on the forums, we were able to save the file path to database and retrieve the file using this link. It was a great learning experience for us since none of use has used database before. 
   </li>
   <li>Jing Song:
   </li>
