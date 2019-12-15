@@ -153,7 +153,13 @@ The product should provide users with a report that summarizes the useful inform
 - ### Future Improvements
 
 - ### Reflections
-<p>Yu Liu: Through this project, we focused on a few aspects of machine learning algorithm design and web development. The part I enjoyed the most is how we processed and analyzed the dataset, from which we could acquire useful information. After studying several different algorithms, we accomplished the machine learning module successfully. Neverthelss, what I found the most difficult is to integrate everything we've done into a product, since we had to adjust all the components so as to make the product work more smoothly. In a word, I learned a lot about agile software development from this project, which helps lay a solid foundation for future career.<p>
+<ul>
+  <li>Yu Liu: Through this project, we focused on a few aspects of machine learning algorithm design and web development. The part I enjoyed the most is how we processed and analyzed the dataset, from which we could acquire useful information. After studying several different algorithms, we accomplished the machine learning module successfully. Neverthelss, what I found the most difficult is to integrate everything we've done into a product, since we had to adjust all the components so as to make the product work more smoothly. In a word, I learned a lot about agile software development from this project, which helps lay a solid foundation for future career.</li>
+  <li>Shengyao Shao:
+  </li>
+  <li>Jing Song:
+  </li>
+</ul>
 
 ## Content:
 
