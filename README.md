@@ -151,21 +151,50 @@ The product should provide users with a report that summarizes the useful inform
     <img src = "https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/UI/report.PNG">
 
 - ### Future Improvements
-None! The system is perfect and has nothing to be improved.
+    - Expand data scraping scale (include university courses from other countries)
+    - Add GRE, TOEFL score reports processing
+    - Allow uploading multiple files (in zip)
+    - Allow comparisons between different machine learning models 
+    - Gather more data for system testing
+    - Work on UI more 
+
 - ### Reflections
-<ul>
-  <li>Yu Liu: Through this project, we focused on a few aspects of machine learning algorithm design and web development. The part I enjoyed the most is how we processed and analyzed the dataset, from which we could acquire useful information. After studying several different algorithms, we accomplished the machine learning module successfully. Neverthelss, what I found the most difficult is to integrate everything we've done into a product, since we had to adjust all the components so as to make the product work more smoothly. In a word, I learned a lot about agile software development from this project, which helps lay a solid foundation for future career.</li>
-  <li>Shengyao Shao: When trying to apply the database to this project, we had to face a number of obstacles. From small problems like having trouble downloading and installing the software required for MySQL database, to how we could make the database work more efficiently. After carefully going through the documentation MySQL provided and all kinds of tutorials available on the forums, we were able to save the file path to database and retrieve the file using this link. It was a great learning experience for us since none of use has used database before. 
-  </li>
-  <li>Jing Song:
-  </li>
-</ul>
+    - Yu Liu: Through this project, we focused on a few aspects of machine learning algorithm design and web development. The part I  enjoyed the most is how we processed and analyzed the dataset, from which we could acquire useful information. After studying several different algorithms, we accomplished the machine learning module successfully. Neverthelss, what I found the most difficult is to integrate everything we've done into a product, since we had to adjust all the components so as to make the product work more smoothly. In a word, I learned a lot about agile software development from this project, which helps lay a solid foundation for future career.
+    
+    - Shengyao Shao: When trying to apply the database to this project, we had to face a number of obstacles. From small problems like having trouble downloading and installing the software required for MySQL database, to how we could make the database work more efficiently. After carefully going through the documentation MySQL provided and all kinds of tutorials available on the forums, we were able to save the file path to database and retrieve the file using this link. It was a great learning experience for us since none of use has used database before. 
+
+    - Jing Song: The transcript processing part of the project was completely new to me, and I have learned a lot about data scraping and manually extracting information from txt files throughout the process. I have written a web application in python with Django before, and I think it is really interesting to try Flask this time, and I could feel the difference between the two modules. Though there is still a lot of room for improvements, I think we have done a great job realizing most of the expectations for the application that we had at the beginning of project. I feel very proud of this project. It is definitely a great experience that will also prepare me for my future career.
 
 ## Content:
 
   1. [Meeting with Professor Trachtenberg](https://github.com/daisysj/EC601-Project-AAS/blob/master/2019.9.24%20Meeting%20with%20Prof.%20Trachtenberg.pdf)
 
-  2. User Stories & MVP
-
-  3. [Industry Review](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
+  2. [Industry Review](https://github.com/daisysj/EC601-Project-AAS/blob/master/Sprint%201_Industry%20Review.pdf)
+  
+  3. Application Main Program Files
+  
+     - [Convert PDF to TXT .py](https://github.com/daisysj/EC601-Project-AAS/blob/master/pdf_converter.py)
+  
+     - [Transcript Processing .py](https://github.com/daisysj/EC601-Project-AAS/blob/master/get_transcript_info.py)
+     
+     - [Recommendation Letter Sentiment Analysis .py](https://github.com/daisysj/EC601-Project-AAS/blob/master/recommlett_senti.py)
+     
+     - [Admission Probability Predictor .py](https://github.com/daisysj/EC601-Project-AAS/blob/master/predict_ver2.py)
+     
+     - [UI htmls](https://github.com/daisysj/EC601-Project-AAS/tree/master/templates)
+  
+  4. Sample Test Files
+  
+     - [Transcript Sample PDF](https://github.com/daisysj/EC601-Project-AAS/blob/master/Demo%20Transcript.pdf)
+     
+     - [Recommendation Letter Sample PDF](https://github.com/daisysj/EC601-Project-AAS/blob/master/Recommendation%20Letter%20Sample.pdf)
+  
+  5. [Presentations](https://github.com/daisysj/EC601-Project-AAS/tree/master/presentation)
+  
+     - [Sprint 1 Presentation Powerpoints](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%201%20Presentation.pdf)
+     
+     - [Sprint 2 Presentation Powerpoints](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/Sprint%202%20Presentation.pdf)
+     
+     - [Poster Presentation](https://github.com/daisysj/EC601-Project-AAS/blob/master/presentation/poster_final.pdf)
+     
 
