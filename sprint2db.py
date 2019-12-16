@@ -1,5 +1,6 @@
 import mysql.connector
 import os
+import urllib.request
 vantage = mysql.connector.connect(user = "", password = "", host = "localhost", database = "db9")
 mycursor = vantage.cursor()  
 #mycursor.execute("CREATE TABLE location (name VARCHAR(255), address VARCHAR(255))")
@@ -20,4 +21,7 @@ mycursor.execute("SELECT * FROM location")
 table = mycursor.fetchall()
 
 for x in table:
-  print(x)
+    print(x)
+    link = x[1]
+line = urllib.request.pathname2url(link)
+cont = urllib.request.urlopen('file:'+line) #get content with link
